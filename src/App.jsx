@@ -1,6 +1,5 @@
 import "./App.css";
 import { Start } from "./components/ui/start";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Header } from "./components/ui/Header";
 import Button from "./components/ui/Button-comps/Button";
 
