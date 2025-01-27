@@ -17,7 +17,7 @@ export function GetCssButton() {
         }`}
       >
         <div className="w-full h-66 bg-black text-white py-5  px-10 leading-6  ">
-          <span className="text-[#98C379] ml-4">.button</span> {`{`}
+          <span className="text-[#98C379] ml-4 italic">.button</span> {`{`}
           <br />
           <span className="text-[#98C379] ml-10"> font-size:</span>{" "}
           <span className="text-[#D19A66] ">{values.fontSize}</span>;<br />
