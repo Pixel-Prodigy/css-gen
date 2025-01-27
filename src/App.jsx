@@ -1,19 +1,18 @@
 import "./App.css";
 import { Start } from "./components/ui/start";
-import { Header } from "./components/ui/Header";
-import Button from "./components/ui/Button-comps/Button";
 
 import { TextProvider } from "./components/ui/Button-comps/text-provider";
+import { Content } from "./components/ui/Content";
+import { useState } from "react";
 
 function App() {
+const [hide , setHide] = useState(false)
   return (
     <TextProvider>
      <div>
-      <Start />
-      <Header />
-      <div className="flex justify-center">
-        <Button></Button>
-        </div>
+      <Start onClick={()=>setHide(true)} className={hide ? "hidden" : "visible"} />
+      <Content className={hide ? "visible" : "hidden"}/>
+      
         </div>
     </TextProvider>
   );

@@ -3,7 +3,7 @@ import { Right } from "../Right";
 import { useContext, useState, useEffect } from "react";
 import { TextContext } from "./text-context";
 
-export default function Button() {
+export function Button() {
   const { values } = useContext(TextContext);
   const [message, setMessage] = useState("");
   function InnerTextChange(ifValue, msg, effect) {

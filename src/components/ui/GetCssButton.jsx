@@ -12,11 +12,11 @@ export function GetCssButton() {
         onClick={() => setHide(false)}
       ></div>
       <div
-        className={`w-112 h-100 bg-white absolute p-8  top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 ${
+        className={`w-112 h-100 bg-white  rounded-sm absolute p-8  top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 ${
           hide ? "visible" : "hidden"
         }`}
       >
-        <div className="w-full h-66 bg-black text-white py-5  px-10 leading-6  ">
+        <div className="w-full h-66 bg-black text-white py-5  px-10 leading-6 rounded-sm">
           <span className="text-[#98C379] ml-4 italic">.button</span> {`{`}
           <br />
           <span className="text-[#98C379] ml-10"> font-size:</span>{" "}

@@ -10,7 +10,7 @@ import { Color } from "./Color";
 export default function ButtonLeft({ className }) {
   return (
     <div
-      className={`w-[50%] border-r-2 min-h-[87vh] border-gray-400/20 grid sm:px-12 px-2 py-8 ${className}`}
+      className={`w-[50%] border-r-2 h-[87vh] border-gray-400/20 grid sm:px-12 px-2 py-8 ${className}`}
     >
       <div className="mx-auto">
         <h2 className="text-xl mb-4">
